@@ -4,6 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px; 
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead,tfoot{
+            background-color: #383838; color: white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }
+        tbody>tr:nth-child(odd){
+            background-color: white;
+            font-weight: bold;
+        }
+        tbody>tr:nth-child(even){
+            background-color: lightgray;
+            text-decoration: underline;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
@@ -125,6 +164,18 @@
                 <td class="num">716.793</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>212.462.615</strong></td>
+            </tr>
+        </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita explicabo a eveniet soluta nemo nam saepe, unde ipsam odit quisquam tempora fugiat. Reiciendis iusto optio commodi voluptatem atque? Delectus, dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est praesentium dignissimos, ut perspiciatis aliquid voluptatibus architecto, quidem facere facilis quae aliquam illum laboriosam laudantium voluptates tenetur non eligendi autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quam repudiandae vel officiis eos illum fugiat dolores explicabo labore delectus facilis veniam quos sapiente animi officia necessitatibus. Expedita, dolorum necessitatibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus dolorem voluptatibus nemo ipsam! Quidem quia magni, adipisci sapiente praesentium dolorum, repudiandae eveniet nulla autem animi quos dicta quis. Alias, delectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita explicabo a eveniet soluta nemo nam saepe, unde ipsam odit quisquam tempora fugiat. Reiciendis iusto optio commodi voluptatem atque? Delectus, dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est praesentium dignissimos, ut perspiciatis aliquid voluptatibus architecto, quidem facere facilis quae aliquam illum laboriosam laudantium voluptates tenetur non eligendi autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quam repudiandae vel officiis eos illum fugiat dolores explicabo labore delectus facilis veniam quos sapiente animi officia necessitatibus. Expedita, dolorum necessitatibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus dolorem voluptatibus nemo ipsam! Quidem quia magni, adipisci sapiente praesentium dolorum, repudiandae eveniet nulla autem animi quos dicta quis. Alias, delectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita explicabo a eveniet soluta nemo nam saepe, unde ipsam odit quisquam tempora fugiat. Reiciendis iusto optio commodi voluptatem atque? Delectus, dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est praesentium dignissimos, ut perspiciatis aliquid voluptatibus architecto, quidem facere facilis quae aliquam illum laboriosam laudantium voluptates tenetur non eligendi autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quam repudiandae vel officiis eos illum fugiat dolores explicabo labore delectus facilis veniam quos sapiente animi officia necessitatibus. Expedita, dolorum necessitatibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus dolorem voluptatibus nemo ipsam! Quidem quia magni, adipisci sapiente praesentium dolorum, repudiandae eveniet nulla autem animi quos dicta quis. Alias, delectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita explicabo a eveniet soluta nemo nam saepe, unde ipsam odit quisquam tempora fugiat. Reiciendis iusto optio commodi voluptatem atque? Delectus, dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est praesentium dignissimos, ut perspiciatis aliquid voluptatibus architecto, quidem facere facilis quae aliquam illum laboriosam laudantium voluptates tenetur non eligendi autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quam repudiandae vel officiis eos illum fugiat dolores explicabo labore delectus facilis veniam quos sapiente animi officia necessitatibus. Expedita, dolorum necessitatibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus dolorem voluptatibus nemo ipsam! Quidem quia magni, adipisci sapiente praesentium dolorum, repudiandae eveniet nulla autem animi quos dicta quis. Alias, delectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita explicabo a eveniet soluta nemo nam saepe, unde ipsam odit quisquam tempora fugiat. Reiciendis iusto optio commodi voluptatem atque? Delectus, dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est praesentium dignissimos, ut perspiciatis aliquid voluptatibus architecto, quidem facere facilis quae aliquam illum laboriosam laudantium voluptates tenetur non eligendi autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quam repudiandae vel officiis eos illum fugiat dolores explicabo labore delectus facilis veniam quos sapiente animi officia necessitatibus. Expedita, dolorum necessitatibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus dolorem voluptatibus nemo ipsam! Quidem quia magni, adipisci sapiente praesentium dolorum, repudiandae eveniet nulla autem animi quos dicta quis. Alias, delectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita explicabo a eveniet soluta nemo nam saepe, unde ipsam odit quisquam tempora fugiat. Reiciendis iusto optio commodi voluptatem atque? Delectus, dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea est praesentium dignissimos, ut perspiciatis aliquid voluptatibus architecto, quidem facere facilis quae aliquam illum laboriosam laudantium voluptates tenetur non eligendi autem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, quam repudiandae vel officiis eos illum fugiat dolores explicabo labore delectus facilis veniam quos sapiente animi officia necessitatibus. Expedita, dolorum necessitatibus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus dolorem voluptatibus nemo ipsam! Quidem quia magni, adipisci sapiente praesentium dolorum, repudiandae eveniet nulla autem animi quos dicta quis. Alias, delectus.</p>
 </body>
 </html>
